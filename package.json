@@ -1,0 +1,31 @@
+{
+  "name": "neural-network",
+  "version": "1.0.0",
+  "description": "Modelling a neural network for study",
+  "src": "./dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "lint": "run-s -c lint:*",
+    "lint:tsc": "tsc",
+    "lint:eslint": "eslint .",
+    "lint:prettier": "prettier --check .",
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dorarep/neural-network.git"
+  },
+  "author": "dorarep",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dorarep/neural-network/issues"
+  },
+  "homepage": "https://github.com/dorarep/neural-network#readme",
+  "devDependencies": {
+    "@tsconfig/node18": "^2.0.0",
+    "@tsconfig/strictest": "^2.0.1",
+    "@types/eslint": "^8.37.0",
+    "@types/node": "^20.1.0",
+    "eslint": "^8.40.0"
+  }
+}
