@@ -1,3 +1,4 @@
+/** 活性化関数 */
 export interface ActivationFunction {
   calculate: (x: number) => number;
   derivative: (x: number) => number;
